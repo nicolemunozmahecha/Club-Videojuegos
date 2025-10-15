@@ -1,0 +1,28 @@
+INTRODUCCIÓN DESARROLLO DE VIDEOJUEGOS
+
+Desde la pagina web, se aprende con los ejemplos
+
+cheatsheet --> hoja con todos los comandos
+
+JUEGO DE PONG:
+
+FASES:
+1. Hay 2 palas
+2. Las palas se mueven
+3. Hay que golpear las pelotas
+4. La pelota rebota
+5. Si la pelota toca el limite del oponente +1 punto, REINICIAMOS
+6. Interfaz, escenario de juego(linea de división. 2 campos)
+
+PASOS DE CREACIÓN:
+1. Crear la ventana de la interfaz y un bucle(game loop)hasta que el jugador decida salir del juego. Orden:
+	--> Definir var obj
+	--> Eventos 
+	--> Actualizar info(qué pasa si te mueves a un lado o a otro)
+	--> Dibujamos
+2. Dibujar bola, palas, y línea.
+3. Mover la bola
+4. Comprobar colisiones de borde.
+5. Mover pala.
+6. Colisión bola-pala
+7. Puntos

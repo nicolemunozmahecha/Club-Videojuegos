@@ -1,0 +1,11 @@
+#includo <raylib.h>
+
+int main(){
+    // Paso 1 
+    InitWindow(1280, 800, "PONG");
+    
+    CloseWindow();
+
+
+    return 0;
+}
